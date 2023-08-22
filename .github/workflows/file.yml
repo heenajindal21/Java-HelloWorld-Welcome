@@ -12,8 +12,8 @@ jobs:
      
            - name: check
              run: |
-             java -version
-             javac -version1
+              java -version
+              javac -version1
 
            - name: 4. Clone Project
              uses: actions/checkout@v3
